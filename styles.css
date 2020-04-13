@@ -84,7 +84,7 @@ header .profile-image {
 }
 
 header .profile-image:hover {
-    transform: scale(1.2) rotate(5deg);
+    transform: scale(1) rotate(50deg);
 }
 
 .tag {
@@ -99,6 +99,8 @@ header .profile-image:hover {
 .intro {
     background-color: #222;
     color: floralwhite;
+    font-family: "Lucida Console", Monaco, monospace;
+
 }
 
 .main-heading {
@@ -234,3 +236,4 @@ a.social:hover {
     .technologies-list {
         margin: 10px 0;
     }
+}
