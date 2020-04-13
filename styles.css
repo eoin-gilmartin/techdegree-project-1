@@ -38,6 +38,7 @@ a:hover {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
+    font-family: "Lucida Console", Monaco, monospace;
 }
 
 .nav .name {
@@ -57,7 +58,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/my-city.jpg') no-repeat top center ;
+  background: url('images/home-office.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -67,10 +68,10 @@ header {
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  width: 200px;
+  height: 200px;
+  border-radius: 30%;
+  border: 2px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -84,10 +85,15 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
-.location {
+.intro {
   background-color: #222;
-  color: yellow;
+  color: floralwhite;
 }
+
+.main-heading{
+    font-family: "Lucida Console", Monaco, monospace
+}
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -160,6 +166,10 @@ a.linkedin {
 a.github {
   background-image: url(images/github.svg);
 }
+a.email {
+    background-image: url(images/email.png);
+}
+
 a.social:hover {
   opacity: 1;
 }
@@ -203,5 +213,7 @@ a.social:hover {
     margin: 40px auto;
   }
 
-}
+    .technologies-list{
+        margin: 10px 0;
+    }
 
